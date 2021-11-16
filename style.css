@@ -1,0 +1,19 @@
+#canvas {
+    display: block;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+#header {
+    color: white;
+    z-index: 10;
+    text-align: center;
+    position: realative;
+} 
+body {
+    font-family: monospace;
+}
