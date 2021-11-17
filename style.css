@@ -9,11 +9,35 @@
     z-index: -1;
 }
 #header {
-    color: white;
-    z-index: 10;
     text-align: center;
-    position: realative;
-} 
+    position: relative;
+}
+
 body {
+    color: white;
     font-family: monospace;
+    background-color: darkgray;
+}
+
+#body {
+    padding: 100px;
+}
+
+#bots {
+    display: table-row;
+    text-align: center;
+}
+
+.fullCard {
+    width: 245px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 5px;
+}
+.cardContent {
+    padding: 10px;
+}
+.cardText {
+    text-align: center;
+    margin-bottom: 30px;
 }
